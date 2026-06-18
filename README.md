@@ -77,8 +77,8 @@ BME680:
 5. Fill in your WiFi credentials, APN, and relay server details
 6. Flash to Walter via USB
 
-IMPORTANT: Never commit config.h -- it contains your credentials.
-config.h is already in .gitignore.
+NOTE: config.h is excluded from git.
+
 
 ## Changelog
 
