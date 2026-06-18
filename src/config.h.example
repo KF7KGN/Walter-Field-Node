@@ -1,0 +1,25 @@
+// ============================================================================
+//  Walter Field Node — Configuration
+//  Copy this file to config.h and fill in your values
+//  NEVER commit config.h to git — it is in .gitignore
+// ============================================================================
+#pragma once
+
+// ---- WiFi Access Point (hosted by the Walter device) ----
+#define AP_SSID        "Walter-FieldNode"    // SSID broadcast by device
+#define AP_PASSWORD    "your-ap-password"    // min 8 chars, WPA2/WPA3
+
+// ---- Dashboard login ----
+#define DASH_USER      "admin"
+#define DASH_PASS      "your-dashboard-password"
+
+// ---- WiFi STA (upstream internet for WiFi failover) ----
+#define STA_SSID       "your-wifi-network"
+#define STA_PASS       "your-wifi-password"
+
+// ---- Cellular APN ----
+#define APN            "your.apn.here"       // e.g. soracom.io
+
+// ---- UDP Telemetry relay ----
+#define UE_HOST        "your.relay.server"   // IP or hostname of relay server
+#define UE_PORT        20007                 // UDP port on relay server

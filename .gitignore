@@ -1,0 +1,18 @@
+# NEVER commit real credentials
+src/config.h
+
+# Arduino build artifacts
+build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# IDE files
+.vscode/
+*.code-workspace
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
